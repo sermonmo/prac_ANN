@@ -241,6 +241,7 @@ modFit_ANN = h2o.deeplearning(y = 'class',
 
 # retro-propagacion del error: Classic Backpropagation
 # momentum: 0
+# psp: RBF
 
 pred_ANN <- h2o.predict(modFit_ANN, newdata = as.h2o(dfTest))
 
