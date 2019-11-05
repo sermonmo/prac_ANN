@@ -279,4 +279,4 @@ plot(raster_ANN)
 # guardar imagen en disco
 writeRaster(raster_ANN,"raster_ANNpred.tiff", drivername="Gtiff")
 
-pause
+#pause
